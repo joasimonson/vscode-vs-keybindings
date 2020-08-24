@@ -55,6 +55,11 @@
                 "command": "insertSnippet"
             },
             {
+                "key": "ctrl+m ctrl+o",
+                "command": "editor.foldLevel3",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
                 "key": "ctrl+shift+l",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
